@@ -44,11 +44,12 @@ except:
     print("爬取失败")
     
 '''
-
-
+#王丽颖json1
+url = "http://encrypted.boxuegu.com/bxg/userUpload/aad963f0-3e73-d046-f833-7878ed727283.mp4"
+#王丽颖json2
 #网络图片的爬取
-url = "https://new-bxgstorge.boxuegu.com/smooc/P02/019.mp4"
-#"http://202.207.82.51/dest/41b/41b04f41-a106-4e64-86e7-2a0d2052db29.mp4"
+#王者荣耀爬虫视频
+#url = "https://new-bxgstorge.boxuegu.com/smooc/P02/019.mp4"
 root = "D://"
 path = root + url.split('/')[-1]
 try:
